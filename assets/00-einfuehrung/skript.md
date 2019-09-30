@@ -63,6 +63,9 @@ Studierende der Wirtschaftsinformatik sollten durchaus in der Lage sein ...
 
 # Welche IT Systeme kennen Sie?
 
+Wir sammeln einfach mal alles was uns einfällt und in den Topf _IT Systeme_ passen könnte!
+
+Los geht es!
 ---
 
 # IT Systeme?
@@ -93,7 +96,7 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 
 ---
 
-# Was ist was?
+# Was ist das?
 
 .center[![:scale 75%](./img/prozessor.jpg)]
 
@@ -101,9 +104,9 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 
 ---
 
-# Was ist das?
+# Was ist was?
 
-.center[![:scale 75%](./img/Mainboard.jpg)]
+.center[![:scale 75%](./img/Mainboard.png)]
 
 .footenote[taken from commons.wikimedia.org]
 
@@ -115,6 +118,12 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 
 .footenote[taken from commons.wikimedia.org]
 
+
+---
+
+# Wie spielt das zusammen?
+
+.center[![:scale 90%](./img/von_neumann.png)]
 
 ---
 
@@ -139,11 +148,29 @@ Ausserdem:
 
 ---
 
+# Nortbridge/ Southbridge
+
+.center[![:scale 45%](./img/northbridge.png)]
+
+---
+
 # Ok, was ist das?
 
 .center[![:scale 80%](./img/Raspberry.jpg)]
 
 .footenote[taken from commons.wikimedia.org]
+
+---
+
+# Aufgabe
+
+## Was ist was?
+
+- Bilden sie Gruppen zu dritt
+- versuchen Sie in der Gruppe die einzelnen Komponenten (Prozessor, I/O, Speicher) zu identifizieren
+- Evtl. müssen sie das Internet benutzen!
+
+.center[![:scale 50%](./img/Raspberry.jpg)]
 
 ---
 
@@ -174,19 +201,101 @@ Betriebssysteme
 
 # Wie reden die miteinander?
 
+
+.center[![:scale 80%](./img/client_server.png)]
+
+**Welche Alternativen gibt es?**
 ---
 
 # Netzwerk
+
+Ein vernetztes System und die Möglichkeit der Nutzung von gemeinsamen Ressourcen, das durch das Netzwerkbetriebssystem ermöglicht wird, bietet im Vergleich zu einem isolierten, aus einem Rechner bestehende System folgende Vorteile:
+1. Nutzung von gemeinsamen Betriebsmitteln
+    - Nutzung der gemeinsamen Hardware
+    - Zugriff zu gemeinsamen Daten und Programmen
+2. Mailing Dienste: Das Netz bietet die Möglichkeit der Bürokommunikation
+3. Anbindung an Großrechner und zentrale Server Dies ermöglicht den Stationen im Netz den
+Zugriff auf zentrale Datenbestände und ein Arbeiten auf dem zentralen Rechner.
+
+.center[![:scale 30%](./img/netzwerk.png)]
 
 ---
 
 # Internet 
 
+- Das Internet ist ein weltweiter Verbund von Rechnernetzwerken. 
+- Es ermöglicht die Nutzung von Internetdiensten wie 
+
+**?? Welche Dienste fallen ihnen ein?**
+
+- Dabei kann sich jeder Rechner mit jedem anderen Rechner verbinden. 
+- Der Datenaustausch zwischen den über das Internet verbundenen Rechnern erfolgt über die technisch normierten Internetprotokolle.
+
+**?? Welche Protokolle fallen ihnen ein?**
+
+- Die Technik des Internets wird durch die RFCs der Internet Engineering Task Force (IETF) beschrieben. 
+---
+
+# Internet 
+
+- Das Internet ist ein weltweiter Verbund von Rechnernetzwerken. 
+- Es ermöglicht die Nutzung von Internetdiensten wie 
+
+**WWW, E-Mail, Telnet, SSH, XMPP, MQTT und FTP**
+
+- Dabei kann sich jeder Rechner mit jedem anderen Rechner verbinden. 
+- Der Datenaustausch zwischen den über das Internet verbundenen Rechnern erfolgt über die technisch normierten Internetprotokolle.
+
+**HTTP, IP, UDP, TCP, SMTP**
+
+- Die Technik des Internets wird durch die RFCs der Internet Engineering Task Force (IETF) beschrieben. 
+
+---
+# Internet - Fun Facts
+
+An der Suchmaschine Google gibt es kein Vorbeikommen: Jeden Monat kommt die Homepage auf mehr als 42,5 Milliarden Besucher. Das Google-Vergnügen ist allerdings nur kurz: Im Schnitt bleiben Internetnutzer neun Sekunden auf der Webseite.
+
+Die [allererste Internetseite](http://info.cern.ch/hypertext/WWW/TheProject.html) ist immer noch online.
+
+Die US-amerikanische Bibliothekarin Jean Armour Polly etablierte 1992 den Begriff „Im Internet surfen“ in einem Magazin-Artikel.
+
+Den ersten Tweet überhaupt schrieb Twitter-Erfinder Jack Dorsey am 21. März 2006.
+
+Das erste YouTube-Video lud Gründer Jawed Karim am 23. April 2005 hoch. Das belanglose Stück Netzgeschichte trägt den Titel „Me at the zoo“.
+
 ---
 
 # Cloud
+
+
+## Cloud Computing ...
+
+- ... ist eine IT-Infrastruktur, die beispielsweise über das Internet verfügbar gemacht wird. Sie beinhaltet in der Regel Speicherplatz, Rechenleistung oder Anwendungssoftware als Dienstleistung.
+
+- ... verfolgt den Ansatz, IT-Infrastrukturen über ein Rechnernetz zur Verfügung zu stellen, ohne dass diese auf dem lokalen Rechner installiert sein müssen. 
+
+**Welche Dienste könnten das sein?**
+
+---
+
+# Cloud Services
+
+.center[![:scale 70%](./img/Cloud.png)]
 
 ---
 
 # Zusammenfassung
 
+- IT Systeme nicht genau definiert
+- Wir schauen uns an:
+    - Rechner- und Rechneraufbau
+    - Betriebssysteme
+    - Netzwerke
+    - Verteilte Anwendungen
+    - Cloud Systeme
+
+Wow, und das in 15 Vorlesungen! 
+
+Klingt nach Spass :-)
+
+.center[![:scale 30%](./img/netzwerk.png)]
