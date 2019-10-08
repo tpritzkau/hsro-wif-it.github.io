@@ -1,9 +1,10 @@
-title:  'IT Systeme (IT)'
-subtitle: '00-Einführung'
-author: Dr. Marcel Tilly
-institute: Bachelor Wirtschaftsinformatik, Fakultät für Informatik
-...
 
+---
+title: 'Modul: IT Systeme (IT)'
+subtitle: '00-Einführung'
+author: 'Dozent: Prof. Dr. Marcel Tilly'
+institute: 'Bachelor Wirtschaftsinformatik, Fakultät für Informatik'
+...
 ---
 class: title-slide  
 
@@ -18,14 +19,10 @@ Fakultät für Informatik, Cloud Computing
 # Organisatorisches
 
 - Übungen on Github: https://hsro-wif-it.github.io
-
 - Vorlesungstermin: Dienstags, 09:45 - 11:15 B0.15
-
 - Übungen: Dienstags, 3./4./5. Stunde, S0.07; Tutor: Daniel Herzinger
-
 - Übung heute entfällt!
 - **Erste Übung am 8.10 bitte in Übungsgruppe eintragen!**
-
 - Kommunikation: via Mattermost (einschreiben)
 
 #### Leistungsnachweis
@@ -34,9 +31,11 @@ Fakultät für Informatik, Cloud Computing
 - Prüfungsanmeldung im OSC
 
 ---
+
 # Lernziele
 
 Die Studierenden...
+
 - ... **kennen** Architektur- und Prozessor-Alternativen moderner Computersysteme und **können einschätzen**, wie einzelne Aspekte der Architektur die Leistungsfähigkeit eines Systems beeinflussen kann.
 - ... können moderne Betriebssysteme nutzen und diese **effektiv einsetzen**.
 - ... **können erklären**, wie wie Daten zwischen Systemen kommuniziert werden und sie sind in der Lage die Funktionsweise paketvermittelnder Systeme **zu erklären**.
@@ -45,6 +44,7 @@ Die Studierenden...
 - ... **können** die Studierenden die technischen Grundlagen der Internettechnologien **erklären und beurteilen**, welche Auswirkungen und Möglichkeiten diese in Unternehmen haben.
 
 ---
+
 # Was heisst das konkret?
 
 Studierende der Wirtschaftsinformatik sollten durchaus in der Lage sein ...
@@ -66,6 +66,9 @@ Studierende der Wirtschaftsinformatik sollten durchaus in der Lage sein ...
 Wir sammeln einfach mal alles was uns einfällt und in den Topf _IT Systeme_ passen könnte!
 
 Los geht es!
+
+.center[![:scale 65%](./img/brainstorming.jpg)]
+
 ---
 
 # IT Systeme?
@@ -80,7 +83,6 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 ---
 
 # Themen
-
 
 1.	Grundlagen zu Hardwarekonzepten und Rechnerarchitekturen ( Von-Neumann-Architektur)
 2.	Logischer Entwurf von Computern und Schaltnetze
@@ -118,7 +120,6 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 
 .footenote[taken from commons.wikimedia.org]
 
-
 ---
 
 # Wie spielt das zusammen?
@@ -142,6 +143,7 @@ Darunter fallen zum Beispiel Computer, Großrechner, Hochleistungsrechner, verte
 - _I/O Geräte_: Grafikkarte, Netzwerkkarte, Soundkarte, Festplatten, Keyboard, Maus
 
 Ausserdem:
+
 - _Northbridge_: koordiniert die Kommunikation zwischen der CPU, dem Arbeitsspeicher, Southbridge und Hochgeschwindigkeits-Schnittstellen (AGP oder PCIe)
 - _Southbridge_: koordiniert die Kommunikation zwischen der Northbridge und langsameren Komponenten (PCI-Karten, Laufwerken, BIOS, Keyboard, Maus)
 - _BIOS Chip_ : mit integrierter Firmware
@@ -181,6 +183,7 @@ Ausserdem:
 .footenote[taken from commons.wikimedia.org]
 
 ---
+
 # Der RaspberryPi
 
 - Der Raspberry Pi ist ein **Einplatinencomputer** 
@@ -188,6 +191,7 @@ Ausserdem:
 - Ein-Ship-System: System on a chip (SoC) 
 
 Spezifikation
+
 - _Prozessor_: ARMv6 oder ARMv8
 - _Arbeitsspeicher_: 512MB - 4GB (onBoard)
 - _I/O_ : GPIO (=General Purpose Input/Output)
@@ -195,21 +199,23 @@ Spezifikation
 - ausserdem: Betriebssystem via SD Karte
 
 Betriebssysteme
+
 - Linux, Windows, ....
 
 ---
 
 # Wie reden die miteinander?
 
-
 .center[![:scale 80%](./img/client_server.png)]
 
 **Welche Alternativen gibt es?**
+
 ---
 
 # Netzwerk
 
-Ein vernetztes System und die Möglichkeit der Nutzung von gemeinsamen Ressourcen, das durch das Netzwerkbetriebssystem ermöglicht wird, bietet im Vergleich zu einem isolierten, aus einem Rechner bestehende System folgende Vorteile:
+Ein vernetztes System und die Möglichkeit der Nutzung von
+
 1. Nutzung von gemeinsamen Betriebsmitteln
     - Nutzung der gemeinsamen Hardware
     - Zugriff zu gemeinsamen Daten und Programmen
@@ -234,6 +240,7 @@ Zugriff auf zentrale Datenbestände und ein Arbeiten auf dem zentralen Rechner.
 **?? Welche Protokolle fallen ihnen ein?**
 
 - Die Technik des Internets wird durch die RFCs der Internet Engineering Task Force (IETF) beschrieben. 
+
 ---
 
 # Internet 
@@ -251,22 +258,22 @@ Zugriff auf zentrale Datenbestände und ein Arbeiten auf dem zentralen Rechner.
 - Die Technik des Internets wird durch die RFCs der Internet Engineering Task Force (IETF) beschrieben. 
 
 ---
+
 # Internet - Fun Facts
 
-An der Suchmaschine Google gibt es kein Vorbeikommen: Jeden Monat kommt die Homepage auf mehr als 42,5 Milliarden Besucher. Das Google-Vergnügen ist allerdings nur kurz: Im Schnitt bleiben Internetnutzer neun Sekunden auf der Webseite.
+- An der Suchmaschine Google gibt es kein Vorbeikommen: Jeden Monat kommt die Homepage auf mehr als 42,5 Milliarden Besucher. Das Google-Vergnügen ist allerdings nur kurz: Im Schnitt bleiben Internetnutzer neun Sekunden auf der Webseite.
 
-Die [allererste Internetseite](http://info.cern.ch/hypertext/WWW/TheProject.html) ist immer noch online.
+- Die [allererste Internetseite](http://info.cern.ch/hypertext/WWW/TheProject.html) ist immer noch online.
 
-Die US-amerikanische Bibliothekarin Jean Armour Polly etablierte 1992 den Begriff „Im Internet surfen“ in einem Magazin-Artikel.
+- Die US-amerikanische Bibliothekarin Jean Armour Polly etablierte 1992 den Begriff „Im Internet surfen“ in einem Magazin-Artikel.
 
-Den ersten Tweet überhaupt schrieb Twitter-Erfinder Jack Dorsey am 21. März 2006.
+- Den ersten Tweet überhaupt schrieb Twitter-Erfinder Jack Dorsey am 21. März 2006.
 
-Das erste YouTube-Video lud Gründer Jawed Karim am 23. April 2005 hoch. Das belanglose Stück Netzgeschichte trägt den Titel „Me at the zoo“.
+- Das erste YouTube-Video lud Gründer Jawed Karim am 23. April 2005 hoch. Das belanglose Stück Netzgeschichte trägt den Titel „Me at the zoo“.
 
 ---
 
 # Cloud
-
 
 ## Cloud Computing ...
 

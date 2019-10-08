@@ -19,6 +19,7 @@ _Vorlesung zum Pflichtmodul **IT Systeme** im [Bachelorstudiengang Informatik](h
     Wir starten mit der Klärung ein paar organisatorischer Dinge. Danach geht es darum eine Vorstellung zu bekommen, was _IT Systeme_ im Kontext der Wirtschaftsinformatik sind und worum es in diesem Modul überhaupt geht.
 
 Die Idee ist, dass ein Verständnis vom Aufbau eines Computers, der Funktionsweise entsteht. Das geht soweit, dass wir am Ende uns verteilte Systeme und Netzwerkkommunikation ansehen.
+
 - **Grundlagen zu Rechnerarchitekturen** ([Skript](/assets/01-vorlesung/slides.html), [Übung](https://github.com/hsro-wif-it/01_uebung))
 
     In dieser Session geht es um die Grundlagen zu Hardwarekonzepten und Rechnerarchitekturen. Wir schauen uns an, was die Grundeinheiten eines Computers sind und was die von-Neumann Architektur ist.
